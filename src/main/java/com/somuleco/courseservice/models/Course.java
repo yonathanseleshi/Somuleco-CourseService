@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
 import javax.persistence.Entity;
 
 @Entity
-public class Course {
+public class Course extends ModelBase{
 
     @Id
     private Long courseId;

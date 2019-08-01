@@ -8,7 +8,7 @@ import javax.persistence.OneToOne;
 import java.util.Date;
 
 @Entity
-public class CourseEnrollment {
+public class CourseEnrollment extends  ModelBase {
 
     @Id
     private Long enrollmentId;
